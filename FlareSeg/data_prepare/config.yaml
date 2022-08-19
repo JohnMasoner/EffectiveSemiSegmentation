@@ -1,0 +1,26 @@
+ENVIRONMENT:
+  DATA_BASE_DIR: '/raid0/myk/FLARE2022/'
+
+DATA_PREPARE:
+  TRAIN_SERIES_IDS_TXT: 'file_list/train_series_uids.txt'
+  UNLABEL_SERIES_IDS_TXT: 'file_list/unlabel_series_uids.txt'
+  TEST_SERIES_IDS_TXT: 'file_list/val_series_uids.txt'
+  BAD_CASE_SERIES_IDS_TXT: None
+  TRAIN_IMAGE_DIR: 'Training/FLARE22_LabeledCase50/images'
+  TRAIN_UNLABEL_DIR: 'Training/FLARE22_UnlabeledCase1-1000'
+  TRAIN_MASK_DIR: 'Training/FLARE22_LabeledCase50/labels'
+  TEST_IMAGE_DIR: 'Training/FLARE22_LabeledCase50/images'
+  TEST_MASK_DIR: None
+  DEFAULT_TRAIN_DB: 'db/seg_pre-process_database'
+  #DEFAULT_VAL_DB: 'db/seg_val_database'
+  DEFAULT_VAL_DB: 'db/seg_pre-process_database'
+  OUT_DIR: None
+  #MASK_LABEL: [1, 2, 3, 4]
+  MASK_LABEL: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+  EXTEND_SIZE: 20
+  VAL_RATIO: 0.2
+  IS_SMOOTH_MASK: False
+  IS_NORMALIZATION_DIRECTION: True
+  OUT_COARSE_SIZE: [128, 128, 128]
+  OUT_FINE_SIZE: [128, 128, 128]
+  IS_SPLIT_5FOLD: False

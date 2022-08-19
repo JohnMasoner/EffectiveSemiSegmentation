@@ -1,0 +1,17 @@
+connected-components-3d
+fastremap==1.12.2
+matplotlib==3.0.2
+numpy
+pandas==0.23.4
+prefetch-generator==1.0.1
+pydicom==1.2.0
+pynvml==11.0.0
+scikit-image==0.14.2
+scikit-learn==0.20.1
+scipy==1.1.0
+SimpleITK==1.2.4
+tensorboard==1.13.1
+tensorboardX==2.4
+thop==0.0.31.post2005241907
+tqdm==4.26.0
+yacs==0.1.8
