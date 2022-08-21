@@ -21,6 +21,7 @@ pip install -r requirements.txt
 ```
 
 ## Training
+0. Noteworthy, you could download the pre-train model by BaiDuNetDisk(link:https://pan.baidu.com/s/1K2AS4qBlbl710KlPFcyTgg?pwd=bs87 code: bs87)
 1. prepare you config, you could set your config file by the requirements. (main parms are every path)
 ```bash
 vim FlareSeg/data_prepare/config.yaml
